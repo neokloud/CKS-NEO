@@ -1,26 +1,15 @@
 {
-  "title": "CKS-NEO Scenarios",
-  "description": "Master Kubernetes Security with hands-on labs including AppArmor, Seccomp, NFS Hardening, NetworkPolicies, TLS, Runtime Security, and more.",
+  "title": "NEOCKS - Security Scenario Collection",
+  "description": "A collection of Kubernetes security labs created for NeoCKS.",
   "scenarios": [
     {
+      "id": "01-neo-nfs-demo",
       "title": "Neo NFS Volume Demo (No PV/PVC)",
-      "description": "Learn how to set up an NFS server, install client tools, and mount NFS volumes inside Kubernetes.",
-      "path": "neo-nfs-volume"
-    },
-    {
-      "title": "AppArmor Security",
-      "description": "Apply AppArmor profiles and enforce filesystem restrictions for containers.",
-      "path": "apparmor"
-    },
-    {
-      "title": "Seccomp Filters",
-      "description": "Use Seccomp profiles to restrict syscalls inside pods.",
-      "path": "seccomp"
-    },
-    {
-      "title": "NetworkPolicy Zero-Trust",
-      "description": "Deny-by-default networking and validate allowed traffic only.",
-      "path": "networkpolicy"
+      "description": "Learn how to configure NFS server and mount NFS inside Kubernetes without PV/PVC.",
+      "path": "scenarios/01-neo-nfs-demo",
+      "difficulty": "medium",
+      "estimated_time": 20,
+      "tags": ["nfs", "volumes", "security", "storage"]
     }
   ]
 }
