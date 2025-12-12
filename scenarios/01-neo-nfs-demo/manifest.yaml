@@ -1,1 +1,9 @@
-title: demo
+{
+  "title": "Neo NFS Volume Demo (No PV/PVC)",
+  "difficulty": "medium",
+  "duration": 20,
+  "entrypoint": "setup.sh",
+  "verify": "verify.sh",
+  "type": "kubernetes",
+  "notes": "NFS demo without PV/PVC"
+}
